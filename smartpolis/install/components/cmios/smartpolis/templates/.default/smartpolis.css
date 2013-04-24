@@ -1,0 +1,58 @@
+* {
+padding: 0px;
+margin: 0px;
+}
+
+#smartpolis_admin_options_form select {
+	width: 250px;
+}
+
+#smartpolis_admin_options_page table, #smartpolis_admin_options_page td {
+	border: 0px;
+	vertical-align: top;
+}
+#smartpolis_admin_options_page td {
+	width: auto;
+}
+
+#smartpolis_admin_options_page textarea {
+	min-width: 500px;
+	min-height: 100px;
+}
+
+#smartpolis_car_form table, table#smartpolis_result, #smartpolis_order_form table {
+	margin: 0px;
+}
+#smartpolis_car_form input {
+	width: 100%;
+}
+
+#smartpolis_message_before_form {
+	display: none;
+}
+#smartpolis_contact_form {
+	display: none;
+}
+
+#smartpolis_car_form .error {
+	border: solid 1px red;
+}
+
+#smartpolis_car_form .disabled {
+	color: #000000;
+}
+
+table {
+	margin: 20px;
+	border: solid black 1px;
+}
+
+td {
+	border-bottom: solid 1px grey;
+	padding: 5px;
+	width: 300px;
+}
+
+select {
+	width: 100%;
+}
